@@ -1,0 +1,41 @@
+.navbar {
+    background-color:black;
+    display:flex;
+    justify-content:space-around;
+    height:20vh;
+}
+.search-bar {
+  background-color: #D7CECE;
+  border-radius: 15px;
+  width: 600px;
+  height: 35px;
+  color: #D66060;
+  border: none;
+  font-weight:bold;
+  text-indent:15px;
+}
+  .search-bar::placeholder {
+    color: #D66060;
+  }
+.search-bar:focus {
+    outline:none;
+    caret:revert;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+.notSpotifyLogo {
+    width:200px;
+    height:200px;
+}
+.spotifyUser {
+  color: #D66060;
+  font-weight:900;
+  font-size:30px;
+}
